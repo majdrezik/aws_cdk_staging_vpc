@@ -1,7 +1,7 @@
 import aws_cdk as cdk
 
 PROJECT_OWNER = 'majd'
-ACCOUNT = "415102591172"
+ACCOUNT = "XXXXXXXXXXXX"
 VPC_NAME = 'majdvpc-stg'
 VPC_CIDR = '172.16.0.0/16'
 MAX_AZS = 2
@@ -16,11 +16,11 @@ NAT_GATEWAY = 'majdvpc-stg-nat'
 REGION = 'us-west-2'  # Oregon
 KEY_PAIR_NAME = ''
 if REGION == 'us-west-2':
-    KEY_PAIR_NAME = 'Majd-stg-kp'
+    KEY_PAIR_NAME = 'KP1'
 elif REGION == 'us-west-1':
-    KEY_PAIR_NAME = 'MajdKP-Ohio'
+    KEY_PAIR_NAME = 'KP2'
 elif REGION == 'us-east-1':
-    KEY_PAIR_NAME = 'MajdKP2'
+    KEY_PAIR_NAME = 'KP3'
 
 NUMBER_OF_NAT_GW = 1
 SUBNET_CIDR_MASK = 24
@@ -30,9 +30,8 @@ SUBNET_CIDR_MASK = 24
 RDS_PORT = 3306
 PUBLIC_EC2_PORT = 8080
 PRIVATE_EC2_PORT = 8080
-SSL_CERTIFICATE_ARN = 'arn:aws:acm:us-west-2:415102591172:certificate/30941231-a8e9-4660-b42d-cb7d3c4a1084'
-#SSL_CERTIFICATE_ARN = "arn:aws:acm:us-east-1:415102591172:certificate/0ad3ae1d-8cae-4877-abd1-23966cba351b"
-SSL_CERTIFICATE_ID = '0ad3ae1d-8cae-4877-abd1-23966cba351b'
+SSL_CERTIFICATE_ARN = 'arn:aws:acm:us-west-2:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX084'
+SSL_CERTIFICATE_ID = '0ad3aeXXXXXXXXXXXXXXXXXXXXXXXXcba351b'
 PUBLIC_ROUTE_TABLE = 'majdvpc-stg-public-route-table'
 PRIVATE_ROUTE_TABLE = 'majdvpc-stg-private-route-table'
 PUBLIC_EC2_ID = 'public EC2'
@@ -61,7 +60,7 @@ PRIVATE_SUBNET_B_CIDR = '172.16.2.0/24'
 # RDS config
 DB_ID = "Majd-RDS-ID2"
 DB_ENGINE = 'MYSQL'
-DB_MASTER_USERNAME = 'majdrezik'
+DB_MASTER_USERNAME = 'majdrezikXXXXXXXX'
 DB_NAME = 'majdPetclinicdb2'
 DB_MAX_ALLOCATED_STORAGE = 200
 DB_OPTION_GROUP_ID = 'MEMCACHED'
