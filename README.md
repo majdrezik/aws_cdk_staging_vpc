@@ -1,6 +1,24 @@
 
 # Welcome to your CDK Python project!
 
+
+
+
+
+![step5-stg (1)](https://user-images.githubusercontent.com/39953455/178683996-78b69b2e-dba0-42c2-9d56-2daf690b542f.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a blank project for Python development with CDK.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
